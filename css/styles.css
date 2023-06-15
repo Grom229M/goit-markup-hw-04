@@ -611,6 +611,15 @@ h1 {
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.portfolio-link:hover .mode-block-text {
+  transform: translateY(0%);
+}
+
+.portfolio-link:focus .mode-block-text {
+  transform: translateY(0%);
+}
+
 .mode-first-block {
   position: relative;
   overflow: hidden;
